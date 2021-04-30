@@ -60,6 +60,7 @@ RNN(
   (fc): Linear(in_features=512, out_features=21388, bias=True)
 )
 ```
+![image](https://user-images.githubusercontent.com/47690957/116699078-c9e71600-a9e2-11eb-805d-80c153e2be92.png)
 
 ## Hypermaters
 We have 10 hyperparameters which are devided in 3 category.
