@@ -31,3 +31,45 @@ We can devide our Project in Some Steps which are given below:
 * Step 6 : Neural Network Training  
 * Step 7 : Checkpoint 2  
 * Step 8 : Generate TV Script  
+
+## Dataset Information
+
+**Dataset Stats**
+* Roughly the number of unique words: 46367
+* Number of lines: 109233
+* Average number of words in each line: 5.544240293684143
+
+**The lines 0 to 10:**
+
+*jerry: do you know what this is all about? do you know, why were here? to be out, this is out...and out is one of the single most enjoyable experiences of life. people...did you ever hear people talking about we should go out? this is what theyre talking about...this whole thing, were all out now, no one is home. not one person here is home, were all out! there are people trying to find us, they dont know where we are. (on an imaginary phone) did you ring?, i cant find him. where did he go? he didnt tell me where he was going. he must have gone out. you wanna go out you get ready, you pick out the clothes, right? you take the shower, you get all ready, get the cash, get your friends, the car, the spot, the reservation...then youre standing around, what do you do? you go we gotta be getting back. once youre out, you wanna get back! you wanna go to sleep, you wanna get up, you wanna go out again tomorrow, right? where ever you are in life, its my feeling, youve gotta go.*
+
+*jerry: (pointing at georges shirt) see, to me, that button is in the worst possible spot. the second button literally makes or breaks the shirt, look at it. its too high! its in no-mans-land. you look like you live with your mother. *
+
+*george: are you through? *
+
+*jerry: you do of course try on, when you buy? *
+
+*george: yes, it was purple, i liked it, i dont actually recall considering the buttons.*
+
+## Neural Network 
+
+## Hypermaters
+We have 10 hyperparameters which are devided in 3 category.
+
+### Data parameters
+`sequence_length = 10`  
+`batch_size = 128`  
+
+### Training parameters
+`num_epochs = 15`  
+`learning_rate = 0.001`
+
+### Model parameters
+`vocab_size = len(vocab_to_int)`  
+`output_size = vocab_size`  
+`embedding_dim = 150`  
+`hidden_dim = 512`  
+`n_layers = 2`  
+`show_every_n_batches = 500`  
+
+## Generated Script
