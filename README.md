@@ -52,6 +52,14 @@ We can devide our Project in Some Steps which are given below:
 *george: yes, it was purple, i liked it, i dont actually recall considering the buttons.*
 
 ## Neural Network 
+We use `Adam Optimizer` and `Cross Entropy Loss` for train neural network and architecture of neural network as below :
+```
+RNN(
+  (embedding): Embedding(21388, 150)
+  (lstm): LSTM(150, 512, num_layers=2, batch_first=True, dropout=0.5)
+  (fc): Linear(in_features=512, out_features=21388, bias=True)
+)
+```
 
 ## Hypermaters
 We have 10 hyperparameters which are devided in 3 category.
