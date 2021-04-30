@@ -73,3 +73,63 @@ We have 10 hyperparameters which are devided in 3 category.
 `show_every_n_batches = 500`  
 
 ## Generated Script
+
+It's time to generate the text. Set `gen_length` to the length of TV script you want to generate and set `prime_word` to one of the following to start the prediction:
+- "jerry"
+- "elaine"
+- "george"
+- "kramer"
+
+We can set the prime word to _any word_ in our dictionary, but it's best to start with a name for generating a TV script. (We can also start with any other names you find in the original text file!)
+
+**Generated Script**
+
+```
+elaine: boutiques tragedy mentally annoying, and i think i have precedence control over the hall.
+
+jerry:(shocked) i don't know..
+
+jerry:(to the phone) yeah, it's unbelievable.
+
+george:(to elaine, muffled) hey, hey. hey, hey.
+
+jerry: hey, i got a little tied on the mollusk..
+
+kramer: well, it's a puffy shirt.
+
+kramer: hey, i saw the photo, but i think that i could talk to a friend of mine...
+
+elaine:(interrupting) i don't have any money.
+
+george:(to jerry) you wanna get that mail outta the way back, and i tripped...
+
+jerry: i mean, you know i could've changed the whole thing.(to elaine) i mean.
+
+george: i don't know...
+
+jerry:(to george, whispering) hey, you know, lloyd advises dinkins have left me a lot of people.
+
+elaine: well, you know what? i think i may.
+
+jerry: well, i think it would be nice if you can get a pedicure immediately and do you know how i feel about that?
+
+kramer: oh, yeah...
+
+george: you know what, i could do a little snooping skits.(george looks shocked and sees jerry staring at the prospect)
+
+jerry:(pointing) i can't take you any fresher, you can't get out of here.
+
+jerry:(pleading) you know, the whole block is based on your head.
+
+kramer: well, you know, i think you should call him.
+
+elaine: what?
+
+george: well, you know... i was thinking maybe i could have been able to buy him a brand- bedroom suite.
+
+george: what, you don't think you could do something about it.
+
+george: oh, i don't think so.
+
+elaine:(to kramer) so how was it?
+```
