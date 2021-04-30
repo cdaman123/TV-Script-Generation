@@ -8,6 +8,10 @@ Project Structure
  |  
  +-- helper.py
  |  
+ +-- trained_rnn.pt
+ |  
+ +-- preprocess.p
+ |  
  +-- data
     |  
     \-- Seinfeld_Scripts.txt
