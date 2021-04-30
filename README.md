@@ -10,6 +10,8 @@ Project Structure
  |  
  +-- trained_rnn.pt
  |  
+  +-- trained_rnn.pt.png
+ | 
  +-- preprocess.p
  |  
  +-- data
